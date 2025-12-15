@@ -23,6 +23,8 @@ def merge_pdfs():
         messagebox.showinfo("Notification", "No file selected!")
         return
 
+    file_paths = sorted(file_paths)
+
     output_file = simpledialog.askstring("Output file name", "File name(No .pdf needed):")
     if not output_file:
         messagebox.showinfo("Notification", "No name!")
