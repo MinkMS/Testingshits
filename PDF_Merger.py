@@ -5,9 +5,7 @@ from PyPDF2 import PdfMerger
 """
 Notes:
 - Requires PyPDF2 installed: pip install PyPDF2
-- Running this script will show GUI dialogs (no main window displayed)
-- Consider adding validation for overwriting existing files or choosing output path
-- For large PDFs or many files, consider using streaming/temporary files to reduce memory usage
+- Consider changing file names to numbers for better sorting
 """
 
 def merge_pdfs():
