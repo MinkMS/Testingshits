@@ -4,8 +4,7 @@ from PyPDF2 import PdfMerger
 
 """
 Notes:
-- Requires PyPDF2 installed: pip install PyPDF2
-- Consider changing file names to numbers for better sorting
+- Requires PyPDF2 installed
 """
 
 def merge_pdfs():
